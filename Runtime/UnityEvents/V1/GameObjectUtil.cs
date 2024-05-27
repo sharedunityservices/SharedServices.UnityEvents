@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Services.UnityEvents
+namespace SharedServices.UnityEvents.V1
 {
     public static class GameObjectUtil
     {

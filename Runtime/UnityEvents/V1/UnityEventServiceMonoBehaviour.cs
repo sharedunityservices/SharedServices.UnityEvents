@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Services.UnityEvents
+namespace SharedServices.UnityEvents.V1
 {
     public class UnityEventServiceMonoBehaviour : MonoBehaviour
     {

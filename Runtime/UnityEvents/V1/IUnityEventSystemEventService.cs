@@ -1,9 +1,8 @@
 ﻿using System;
-using SharedServices;
 using SharedServices.V1;
 using UnityEngine;
 
-namespace Services.UnityEvents
+namespace SharedServices.UnityEvents.V1
 {
     public interface IUnityEventSystemEventService : IService
     {

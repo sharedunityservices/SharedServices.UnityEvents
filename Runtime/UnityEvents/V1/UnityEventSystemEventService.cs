@@ -1,10 +1,9 @@
 ﻿using System;
-using SharedServices.Locator;
 using SharedServices.Locator.V1;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Services.UnityEvents
+namespace SharedServices.UnityEvents.V1
 {
     public class UnityEventSystemEventService : IUnityEventSystemEventService
     {

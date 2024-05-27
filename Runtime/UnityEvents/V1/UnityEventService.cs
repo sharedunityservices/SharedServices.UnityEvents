@@ -2,7 +2,7 @@
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Services.UnityEvents
+namespace SharedServices.UnityEvents.V1
 {
     public class UnityEventService : IUnityEventService, IDisposable
     {
