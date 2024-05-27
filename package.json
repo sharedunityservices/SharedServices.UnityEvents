@@ -1,0 +1,15 @@
+{
+  "name": "com.sharedunityservices.unityevents",
+  "displayName": "SharedServices.UnityEvents",
+  "version": "1.0.0",
+  "description": "<b>Dependencies:</b> https://github.com/sharedunityservices/SharedServices..Core.git\n\n<b>SharedServices.UnityEvents</b> is a package that provides a set of UnityEvents that can be used in your Unity projects.",
+  "unity": "2020.1",
+  "author": {
+    "name": "ETdoFresh",
+    "email": "etdofresh@gmail.com",
+    "url": "https://github.com/sharedunityservices"
+  },
+  "dependencies": {
+    "com.sharedunityservices.core": "1.0.0"
+  }
+}
