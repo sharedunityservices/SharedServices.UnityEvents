@@ -13,7 +13,7 @@ namespace SharedServices.UnityEvents.V1
         
         public void Initialize()
         {
-            _unityEventService = Service.Get<IUnityEventService>();
+            _unityEventService = ServiceLocator.Get<IUnityEventService>();
             _unityEventService.UpdateEvent += OnUpdate;
         }
 
