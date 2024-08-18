@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 namespace SharedServices.UnityEvents.V1
 {
+    [UnityEngine.Scripting.Preserve]
     public class UnityEventSystemEventService : IUnityEventSystemEventService
     {
         public event Action<GameObject> SelectionChangedEvent = delegate { };
