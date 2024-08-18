@@ -1,9 +1,11 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Scripting;
 using Object = UnityEngine.Object;
 
 namespace SharedServices.UnityEvents.V1
 {
+    [Preserve]
     public class UnityEventService : IUnityEventService, IDisposable
     {
         private static UnityEventServiceMonoBehaviour _unityEventService;
